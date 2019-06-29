@@ -1,0 +1,62 @@
+html, body {
+    background-color: #70CF51;
+    font-family: 'Press Start 2P', cursive;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-image: url('../images/grass.png');
+    background-repeat: repeat;
+    color:white;
+    font-size:22px;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    overflow:hidden;
+    background-repeat: no-repeat;
+}
+
+score {
+    display:block;
+    width:100vw;
+    height:70px;
+    padding:10px;
+    text-shadow: 3px 3px 0px black;
+    pointer-events: none;
+}
+
+game {
+    width:100%; height:100%;
+}
+
+fenton {
+    width: 80px; height: 71px;
+    background-image: url('../images/fenton.png');
+    pointer-events: none;
+}
+
+wolf {
+    width: 80px; height: 90px;
+    background-image: url('../images/wolf.png');
+    pointer-events: none;
+    overflow:visible;
+    background-position: bottom;
+}
+
+sheep {
+    width: 70px; height: 74px;
+    background-image: url('../images/sheep.png');
+    cursor: pointer;
+}
+
+pen {
+    width: 325px; height:234px;
+    background-image: url('../images/pen.png');
+    bottom:0px; left:0px;
+}
+
+script {
+    display:none !important;
+}
