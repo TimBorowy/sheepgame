@@ -1,0 +1,3 @@
+interface SheepBehaviour {
+    update(): void
+}
